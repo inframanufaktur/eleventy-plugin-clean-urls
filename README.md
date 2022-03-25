@@ -1,6 +1,6 @@
 # @inframanufaktur/eleventy-plugin-clean-urls
 
-Eleventy plugin wrapper around [@inframanufaktur/clean-urls](https://github.com/inframanufaktur/clean-urls).
+Eleventy plugin wrapper around [@inframanufaktur/clean-urls](https://github.com/inframanufaktur/clean-urls). Because cool kids don’t let their friends click tracking.
 
 ## What does this do?
 
