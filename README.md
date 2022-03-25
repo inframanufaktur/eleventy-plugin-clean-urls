@@ -39,3 +39,7 @@ module.exports = function (eleventyConfig) {
 ```
 
 Using this example all Piwik tracking params (`pk_campaign` and so forth) will be kept in your HTML.
+
+## How does it work?
+
+We are parsing your HTML using `linkedom`, getting all links to external sources and search for search params on them. If we find some, we delete them.
