@@ -4,7 +4,7 @@ Eleventy plugin wrapper around [@inframanufaktur/clean-urls](https://github.com/
 
 ## What does this do?
 
-This package adds a transform to your `eleventyConfig` which removes those pesk tracking params (such as `utm_campaign` or `fbclid`) from links in your HTML.
+This package adds a transform to your `eleventyConfig` which removes those pesky tracking params (such as `utm_campaign` or `fbclid`) from links in your HTML.
 
 ## How do I use this?
 
@@ -14,7 +14,7 @@ First, install:
 npm install @inframanufaktur/eleventy-plugin-clean-urls
 ```
 
-Second, add the transform to your config:
+Second, add the plugin to your config:
 
 ```js
 const pluginCleanUrls = require("@inframanufaktur/eleventy-plugin-clean-urls");
@@ -42,4 +42,4 @@ Using this example all Piwik tracking params (`pk_campaign` and so forth) will b
 
 ## How does it work?
 
-We are parsing your HTML using `linkedom`, getting all links to external sources and search for search params on them. If we find some, we delete them.
+We are parsing your HTML using `linkedom`, getting all links to external sources and search for tracking params on them. If we find some, we delete them.
