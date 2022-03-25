@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Eleventy wrapper around @inframanufaktur/clean-urls",
   "main": ".eleventy.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "ava"
   },
