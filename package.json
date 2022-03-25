@@ -1,0 +1,31 @@
+{
+  "name": "@inframanufaktur/eleventy-plugin-clean-urls",
+  "version": "1.0.0",
+  "description": "Eleventy wrapper around @inframanufaktur/clean-urls",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inframanufaktur/eleventy-plugin-clean-urls.git"
+  },
+  "keywords": [
+    "eleventy",
+    "privacy"
+  ],
+  "author": "Inframanufaktur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inframanufaktur/eleventy-plugin-clean-urls/issues"
+  },
+  "homepage": "https://github.com/inframanufaktur/eleventy-plugin-clean-urls#readme",
+  "devDependencies": {
+    "ava": "^4.1.0",
+    "sinon": "^13.0.1"
+  },
+  "dependencies": {
+    "@inframanufaktur/clean-urls": "^1.0.0",
+    "linkedom": "^0.14.4"
+  }
+}
