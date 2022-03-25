@@ -6,7 +6,10 @@ const defaultOptions = {
 };
 
 module.exports = function (eleventyConfig, userOptions) {
-  const { allowlist } = { ...defaultOptions, ...userOptions };
+  const { allowlist } = {
+    ...defaultOptions,
+    ...userOptions,
+  };
 
   eleventyConfig.addTransform("removeTrackingParams", function (content) {
     if (this.outputPath && this.outputPath.endsWith(".html")) {
