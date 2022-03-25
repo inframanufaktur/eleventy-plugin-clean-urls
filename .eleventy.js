@@ -1,3 +1,4 @@
+const pkg = require("./package.json");
 const removeTrackingParams = require("@inframanufaktur/clean-urls");
 const { parseHTML } = require("linkedom");
 
@@ -6,6 +7,14 @@ const defaultOptions = {
 };
 
 module.exports = function (eleventyConfig, userOptions) {
+  try {
+    eleventyConfig.versionCheck(pkg["11ty"].compatibility);
+  } catch (e) {
+    console.log(
+      `WARN: Eleventy Plugin (${pkg.name}) Compatibility: ${e.message}`
+    );
+  }
+
   const { allowlist } = {
     ...defaultOptions,
     ...userOptions,

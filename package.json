@@ -6,6 +6,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "11ty": {
+    "compatibility": ">=1.0.0"
+  },
   "scripts": {
     "test": "ava"
   },
@@ -30,8 +33,5 @@
   "dependencies": {
     "@inframanufaktur/clean-urls": "^1.0.0",
     "linkedom": "^0.14.4"
-  },
-  "peerDependencies": {
-    "@11ty/eleventy": "^1.0.0 || ^2.0.0"
   }
 }
