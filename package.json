@@ -1,6 +1,6 @@
 {
   "name": "@inframanufaktur/eleventy-plugin-clean-urls",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Eleventy wrapper around @inframanufaktur/clean-urls",
   "main": ".eleventy.js",
   "publishConfig": {
