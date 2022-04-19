@@ -31,7 +31,7 @@
     "sinon": "^13.0.1"
   },
   "dependencies": {
-    "@inframanufaktur/clean-urls": "^1.0.0",
+    "@inframanufaktur/clean-urls": "^1.0.1",
     "linkedom": "^0.14.4"
   }
 }
